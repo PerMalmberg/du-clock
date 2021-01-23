@@ -1,6 +1,6 @@
 # du-clock
 
-An analog clock for Dual Universe with hour, minute and even seconds if desired.
+An analog clock for Dual Universe.
 
 ![example](https://raw.githubusercontent.com/PerMalmberg/du-clock/main/example.png "Links")
 
