@@ -2,7 +2,7 @@
 
 An analog clock for Dual Universe with hour, minute and even seconds if desired.
 
-![example](example.png "Links")
+![example](https://raw.githubusercontent.com/PerMalmberg/du-clock/main/example.png "Links")
 
 ## Setup instructions
 
@@ -10,7 +10,7 @@ An analog clock for Dual Universe with hour, minute and even seconds if desired.
 - Load `master.json` into the first master programming board.
 - Load `slave.json` into the remaining programming boards, setting the Lua parameter `unitNumber` as per the schematic.
 
-![Schematic](Links.svg "Links")
+![Schematic](https://raw.githubusercontent.com/PerMalmberg/du-clock/main/Links.svg "Links")
 
 ### Setting the time
  
