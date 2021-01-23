@@ -2,13 +2,15 @@
 
 An analog clock for Dual Universe with hour, minute and even seconds if desired.
 
+![example](example.png "Links")
+
 ## Setup instructions
 
 - Link elements as in the schematic. Make sure to link the hour and minute lights in ascending order.
 - Load `master.json` into the first master programming board.
 - Load `slave.json` into the remaining programming boards, setting the Lua parameter `unitNumber` as per the schematic.
 
-![Schematic](https://raw.githubusercontent.com/PerMalmberg/du-clock/main/Links.svg "Links")
+![Schematic](Links.svg "Links")
 
 ### Setting the time
  
