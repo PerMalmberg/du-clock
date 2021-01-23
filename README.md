@@ -6,7 +6,7 @@ An analog clock for Dual Universe.
 
 ## Setup instructions
 
-- Link elements as in the schematic. Make sure to link the hour and minute lights in ascending order.
+- Link elements as in the schematic. Make sure to link the hour and minute lights in ascending order and to link lights before anything else.
 - Load `master.json` into the first master programming board.
 - Load `slave.json` into the remaining programming boards, setting the Lua parameter `unitNumber` as per the schematic.
 

@@ -1,32 +1,6 @@
 require('link_elements')
 require('time_util')
 
---[[
-
-Master clock device. v0.0.1
-
-Hardware setup:
-
-Link to
- - A transfer unit setup to transfer screws or anything else between two empty containers. Don't use a unit used for production.
- - The common databank
- - Three buttons, _in this exact order_:
-  - A "Manual Switch" (this is the time setup-switch)
-  - A second "Manual Switch" that is in turn connected to a relay, that in turn is connected to the slave devices.
-  - A third "Manual Switch", that will be used to as in the activation hold circuit to prevent the board to turn off as soon as the player leaves the DZ area.
- 
- Activation circuit, link as follows:
- - Detection zone, linked to an OR-operator
- - Hold switch, referenced above, to the same OR-operator
- - OR-operator output linked to the board.
-
-Setup:
-- Enable the setup-switch and activate the programming board to set the base time.
-
-Don't turn off the transfer unit unit or you will have to redo the setup process.
-
-]]--
-
 local onColor = "128 0 0" --export: The color, in RGB, used when the light is on, defaults to 128 0 0. Reset clock to apply.
 local offColor = "128 128 0" --export: The color, in RGB, used when the light is off. Reset clock to apply.
 local secondaryFillColor = "0 64 0" --export: the color, in RGB, used as the secondary color when in filling display mode.

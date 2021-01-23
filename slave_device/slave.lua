@@ -4,8 +4,6 @@ require('time_util')
 
 --[[
 
-Slave clock device v0.0.1
-
 Link ligts as follows:
 Unit 1: Hours 0-5
 Unit 2: Hours 6-11
