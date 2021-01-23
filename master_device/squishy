@@ -1,0 +1,6 @@
+Main "master.lua"
+
+Output "master.squished.lua"
+
+Module "link_elements" "../du-libs/libs/link_elements.lua"
+Module "time_util" "../du-libs/libs/time_util.lua"
