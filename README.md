@@ -2,7 +2,7 @@
 
 An analog clock for Dual Universe.
 
-The clock can be seen in action at Teoma, ::pos{0,8,3.9631,137.5054,15.4543}
+The clock can be seen in action at Teoma, ::pos{0,8,3.9631,137.5054,15.4543}, VR "Svea Interiors and construction"
 
 ![example](https://raw.githubusercontent.com/PerMalmberg/du-clock/main/example.png "Links")
 
