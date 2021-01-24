@@ -2,6 +2,8 @@
 
 An analog clock for Dual Universe.
 
+The clock can be seen in action at Teoma, ::pos{0,8,3.9631,137.5054,15.4543}
+
 ![example](https://raw.githubusercontent.com/PerMalmberg/du-clock/main/example.png "Links")
 
 ## Setup instructions
